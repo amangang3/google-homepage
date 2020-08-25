@@ -4,17 +4,77 @@ html {
 }
 
 #navbar {
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-    justify-content: right; 
-    align-content: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
-#main_content{
+#gmail{
+    margin:10px;
+}
+
+#images{
+    margin: 10px; 
+}
+
+#sign_in {
+    margin: 10px; 
+}
+#logo_and_search_box{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap; 
+    flex-flow: column wrap; 
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 100px; 
+}
+
+#search_buttons{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;  
+    margin-bottom: 900px; 
 }
 
 #logo{
-    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px; 
+}
+
+#search{
+    margin-bottom: 20px; 
+    width: 500px; 
+    border-radius: 100px; 
+}
+
+#footer{
+    display: flex; 
+    flex-direction: row; 
+}
+
+#advertising{
+    margin: 10px; 
+}
+
+#business{
+    margin: 10px; 
+}
+
+#about{
+    margin: 10px; 
+}
+
+#how_s_works{
+    margin: 10px; 
+}
+
+#privacy{
+    margin: 10px; 
+}
+
+#terms{
+    margin: 10px; 
+}
+
+#settings{
+    margin: 10px; 
 }
